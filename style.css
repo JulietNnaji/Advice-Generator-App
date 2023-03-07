@@ -1,0 +1,59 @@
+body{
+font-family: 'Poppins', sans-serif;
+}
+.container{
+    background: hsl(218, 23%, 16%);
+    padding: 80px 80px 20px 80px;
+}
+.advice-container{
+    border: 1px solid hsl(217, 19%, 24%);
+    border-radius: 7px;
+    background: hsl(217, 19%, 24%);
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    max-width: 500px;
+}
+h1{
+    color: hsl(150, 100%, 66%);
+    font-size: 15px;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+p{
+    color: hsl(193, 38%, 86%);
+    font-size: 18px;
+   font-weight: 800;
+}
+.dice{
+    background-color: hsl(150, 100%, 66%);
+    border: 1px solid hsl(150, 100%, 66%);
+    padding: 12px 14px 8px 14px;
+    border-radius: 50%;
+   max-width: min-content;
+   margin: 0 auto;
+   position: relative;
+   top: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: hsl(193, 38%, 86%);
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .desktop-view{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 650px) {
+    .mobile-view{
+        display: none;
+    }
+}
